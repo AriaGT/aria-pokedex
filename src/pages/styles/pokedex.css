@@ -62,7 +62,7 @@
   border-top-style: groove;
   position: absolute;
   z-index: 1;
-  top: 250px;
+  top: 300px;
   -webkit-animation: spin 1.5s linear infinite;
     -o-animation: spin 1.5s linear infinite;
     animation: spin 1.5s linear infinite;
