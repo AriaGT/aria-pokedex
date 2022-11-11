@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import CardPokeBig from '../components/pokedex/CardPokeBig'
 import Pokemon404 from '../components/pokedexId/Pokemon404'
-import Header from '../components/shared/header'
+import Header from '../components/shared/Header'
 import './styles/pokedexById.css'
 
 const PokedexById = () => {

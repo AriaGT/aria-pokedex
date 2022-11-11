@@ -26,8 +26,8 @@
   line-height: 1rem;
 }
 .pokedex__pokeball {
-  width: 50%;
-  max-width: 200px;
+  width: 30%;
+  max-width: 130px;
 }
 .pokedex__input {
   padding: 5px 12px;
