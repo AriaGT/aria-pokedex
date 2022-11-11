@@ -52,7 +52,7 @@ const Pagination = ({page, pagesLength, setPage}) => {
         <div onClick={handleNext} className='pagination__next pagination__active'><i className="fa-solid fa-arrow-right"></i></div>
       }
       {
-        currentBlock < blockLength - 1 && 
+        currentBlock < blockLength && 
         <div onClick={handleNextPlus} className='pagination__next pagination__active'><i className="fa-solid fa-arrow-right"></i><i className="fa-solid fa-arrow-right"></i></div>
       }
     </div>
