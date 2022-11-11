@@ -21,10 +21,10 @@ const Pagination = ({page, pagesLength, setPage}) => {
     setPage(page + 1)
   }
   const handleNextPlus = () => {
-    setPage(page + 8)
+    setPage(currentBlock * 8 + 1)
   }
   const handlePrevPlus = () => {
-    setPage(page - 8)
+    setPage((currentBlock - 2) * 8 + 1)
   }
   const handlePrev = () => {
     setPage(page - 1)

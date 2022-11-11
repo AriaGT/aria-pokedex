@@ -2,7 +2,7 @@ import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import './styles/selectByType.css'
 
-const SelectByType = ({setTypeSelected}) => {
+const SelectByType = ({setTypeSelected, setPage}) => {
 
   const [types, setTypes] = useState()
 
@@ -16,6 +16,7 @@ const SelectByType = ({setTypeSelected}) => {
   const handleChange = e => {
     e.preventDefault
     setTypeSelected(e.target.value)
+    setPage(1)
   }
 
   return (

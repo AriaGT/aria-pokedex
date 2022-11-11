@@ -48,7 +48,10 @@ const Pokedex = () => {
         <p className='pokedex__top__welcome'><span>Welcome  {userName}</span>, here you can find your favorite pokemon.</p>
         <div className='pokedex__top__search'>
           <InputSearch />
-          <SelectByType setTypeSelected={setTypeSelected}/>
+          <SelectByType 
+            setTypeSelected={setTypeSelected}
+            setPage={setPage}
+          />
         </div>
         <Pagination 
           page={page}
